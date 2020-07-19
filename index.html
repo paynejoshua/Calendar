@@ -66,13 +66,13 @@
       timeBlock.text(bizzHour[i]);
       timeBlock.addClass("col-md-2 hour row");
       inputField.addClass("col-md-10 row");
-      
+      $(inputField).attr("id", bizzHour[i]);
+      inputField.val(localStorage.getItem(bizzHour[i]));
+      console.log(localStorage.getItem(bizzHour[i]))
       $(rowContainer).append(timeBlock);
       $(rowContainer).append(inputField);
       $("#time-blocks").append(rowContainer)
       let bizzMoment = moment(bizzHour[i], "h a")
-      console.log(currentMoment.hours())
-      console.log(bizzMoment.hours())
       // console.log(bizzHour[i])
 
       // if (bizzHour[0] < hour) {
@@ -104,8 +104,17 @@
 
     
      $(saveBtn).on("click", function(){
+      for (var i = 0; i < bizzHour.length; i++){
+       let inputText = document.getElementById(bizzHour[i]).value;
       
+        localStorage.setItem(bizzHour[i], inputText)
+        
+        
+
+      }
      })
+
+    
 
     
    
