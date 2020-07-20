@@ -42,7 +42,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script>
       
-     var time = moment().format('MMM Do')
+     var time = moment().add(1, "d").format('MMM Do')
     
 
      $("#currentDay").text(time)
@@ -73,15 +73,6 @@
       $(rowContainer).append(inputField);
       $("#time-blocks").append(rowContainer)
       let bizzMoment = moment(bizzHour[i], "h a")
-      // console.log(bizzHour[i])
-
-      // if (bizzHour[0] < hour) {
-      //   console.log("true")
-      //   inputField.addClass("past")
-      // } else {
-      //   console.log("false")
-      //   inputField.addClass("past")
-      // }
 
 
       if (currentMoment.hours() > (bizzMoment.hours())) {
