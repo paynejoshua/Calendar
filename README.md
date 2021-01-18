@@ -1,6 +1,13 @@
 # Calendar
 
+<<<<<<< HEAD
 [!Calendar Image] (assets/Screen Shot 2021-01-17 at 6.08.58 PM.png)
+=======
+## Overview
+This is a calendar application that allows users to input events onto their schedule
+
+## Process
+>>>>>>> 8c8d8fdff552aeb48c4eaa483d89e7e84633742f
 
 In this homework assignment I had to write a script that references a third party api called moment. 
 
@@ -11,6 +18,8 @@ Using moment we had to set up this calendar app that will:
   4) put todays date at the top of the page.
   
 I also had to write a script that will keep the tasks that are typed in each time block to be stored in local storage and then called when the page is reloaded so that all "typed events" are saved. This script also had to be put to an on click event to a save button. 
+
+## Things I learned
 
 Over all this project was fairly straight foward. Using JQuery made much of this fairly easy. In order to get the past, present, and future time blocks to have a certain css style I had to create a for loop that ran through an array that I set up to make sure that only business hours were presented. With this for loop I was then able to create a conditional statement that would determine if the time block was in the past, present, or future. 
 
