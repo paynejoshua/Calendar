@@ -2,6 +2,8 @@
 
 ![Calendar Image](./assets/calendarImage.png)
 
+# Click [here](https://paynejoshua.github.io/Work-Day-Scheduler/) for a live demo
+
 ## User Story
 There are many powerful calendar apps available that give users a wide range of tools to keep tracking of their busy lives. However what about a simple calendar application that only shows a users tasks for just today? An application that allows a user to set agendas, tasks, reminders for today only? This calendar application seeks to meet that very need.
 
