@@ -19,7 +19,10 @@ I also had to write a script that will keep the tasks that are typed in each tim
 
 ## How to use
 To use the application start by selecting which time block you want to add a task to 
-![](./assets/clickInBox.gif)
+<img src="./assets/clickInBox.git" style="width: 10px">
+<!-- ![](./assets/clickInBox.gif) -->
+
+
 
 ## Things I learned
 
