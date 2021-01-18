@@ -18,10 +18,20 @@ Using moment I set set up this calendar app that will do the following:
 I also had to write a script that will keep the tasks that are typed in each time block to be stored in local storage and then called when the page is reloaded so that all "typed events" are saved. This script also had to be put to an on click event to a save button. 
 
 ## How to use
-To use the application start by selecting which time block you want to add a task to 
+To use the application follow these steps:
 
-<img src="./assets/clickInBox.gif" alt="Image that shows how to click in a box" width="200px">
-<!-- ![](./assets/clickInBox.gif) -->
+<ol style="margin-left: -23px">
+<li> Start by selecting which time block you want to add a task to 
+
+<img src="./assets/clickInBox.gif" alt="Image that shows how to click in a box" width="500px"></li>
+
+<li>Next type in your task, reminder, or meeting into the time block that you have selected
+
+<img src="./assets/addingContentToCalendar.gif" alt="Image that shows typing into a selected time block" width="500px">
+</li>
+<li>And that's it!</li>
+
+
 
 
 
@@ -38,10 +48,14 @@ The second puzzle piece was because my current time moment object had a format o
 The solve for this second puzzle piece was: moment(moment(), "h a"). The first moment takes what is inside of it's parenthesis, which becomes a string because of format, and turns it back to a moment object. 
 
 ## Future Implementations
+
 In the future I would like to add the following:
--Finished tasks section to see what was accomplished in the past
--Checklist function that rolls unfinished tasks to the next day and finished tasks to finished tasks section
--
+<ul style="margin-left: -23px">
+<li>Finished tasks section to see what was accomplished in the past
+</li>
+<li>Checklist function that rolls unfinished tasks to the next day and finished tasks to finished tasks section
+</li>
+</ul>
 
 ## Technologies Used
 <ul style="margin-left: -23px">
