@@ -1,4 +1,4 @@
-# Calendar
+# Work Day Scheduler
 
 ![Calendar Image](./assets/calendarImage.png)
 
@@ -37,7 +37,7 @@ To use the application follow these steps:
 
 ## Things I learned
 
-Over all this project was fairly straight foward. Using JQuery made much of this fairly easy. In order to get the past, present, and future time blocks to have a certain css style I had to create a for loop that ran through an array that I set up to make sure that only business hours were presented. With this for loop I was then able to create a conditional statement that would determine if the time block was in the past, present, or future. 
+Over all this project was fairly straight foward. Using JQuery made much of this project fairly easy. In order to get the past, present, and future time blocks to have a certain css style I had to create a for loop that ran through an array that I set up to make sure that only business hours were presented. With this for loop I was then able to create a conditional statement that would determine if the time block was in the past, present, or future. 
 
 While this was fairly straight foward there were a few puzzle pieces that had to be solved. 
 
