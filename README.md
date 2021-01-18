@@ -1,6 +1,10 @@
 # Calendar
 
+<<<<<<< HEAD
 ![](assets/calendarImage.png)
+=======
+![] (./assets/calendarImage.png)
+>>>>>>> 0aa52533cf71ab2c1a3ecacaa9f74ef90b20644e
 
 In this homework assignment I had to write a script that references a third party api called moment. 
 
