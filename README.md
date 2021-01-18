@@ -1,6 +1,6 @@
 # Calendar
 
-![] (assets/calendarImage.png)
+![] (./assets/calendarImage.png)
 
 In this homework assignment I had to write a script that references a third party api called moment. 
 
