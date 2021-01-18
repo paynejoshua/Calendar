@@ -1,13 +1,6 @@
 # Calendar
 
-<<<<<<< HEAD
-[!Calendar Image] (assets/Screen Shot 2021-01-17 at 6.08.58 PM.png)
-=======
-## Overview
-This is a calendar application that allows users to input events onto their schedule
-
-## Process
->>>>>>> 8c8d8fdff552aeb48c4eaa483d89e7e84633742f
+![] (assets/calendarImage.png)
 
 In this homework assignment I had to write a script that references a third party api called moment. 
 
